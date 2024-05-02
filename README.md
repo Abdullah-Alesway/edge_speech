@@ -42,7 +42,7 @@ pipx install edge-tts
 3. Type `git clone`, and then paste the URL you copied earlier. It should look something like this: `git clone https://github.com/Abdullah-Alesway/edge_speech`
 
 
-### Running the Script
+## Running the Script
 After cloning the repository, just you need to follow these steps:
 - Navigate to the directory where your script is located using the `cd` command.
 - Make your script executable by running `chmod +x edge-speech.sh`.
