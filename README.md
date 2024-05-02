@@ -48,6 +48,52 @@ After cloning the repository, just you need to follow these steps:
 - Make your script executable by running `chmod +x edge-speech.sh`.
 - Run your script by typing `./edge-speech.sh.` into the terminal.
 
+### Changing the voice
+
+If you want to change the language of the speech or more generally, the voice. 
+
+You must first check the available voices with the `--list-voices` option:
+``` bash
+    $ edge-tts --list-voices
+	Name: en-US-AnaNeural
+	Gender: Female
+
+	Name: en-US-AndrewMultilingualNeural
+	Gender: Male
+
+	Name: en-US-AndrewNeural
+	Gender: Male
+
+	Name: en-US-AriaNeural
+	Gender: Female
+
+	Name: en-US-AvaMultilingualNeural
+	Gender: Female
+
+	Name: en-US-AvaNeural
+	Gender: Female
+
+	Name: en-US-BrianMultilingualNeural
+	Gender: Male
+
+	Name: en-US-BrianNeural
+	Gender: Male
+
+	Name: en-US-ChristopherNeural
+	Gender: Male
+
+	Name: en-US-EmmaMultilingualNeural
+	Gender: Female
+
+	Name: en-US-EmmaNeural
+	Gender: Female
+
+	Name: en-US-EricNeural
+	Gender: Male
+
+	Name: en-US-GuyNeural
+	Gender: Male
+```
 ## Setting a Keyboard Shortcut in GNOME
 To set a keyboard shortcut in GNOME, follow these steps:
 
