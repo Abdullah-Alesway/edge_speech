@@ -48,7 +48,7 @@ After cloning the repository, just you need to follow these steps:
 - Make your script executable by running `chmod +x edge-speech.sh`.
 - Run your script by typing `./edge-speech.sh.` into the terminal.
 
-### Changing the voice
+## Changing the voice
 
 If you want to change the language of the speech or more generally, the voice. 
 
