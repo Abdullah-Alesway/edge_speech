@@ -36,3 +36,35 @@ pip install edge-tts
 pipx install edge-tts
 ```
 
+## Cloning a Repository
+1. Open Terminal or Git Bash.
+2. Change the current working directory to the location where you want the cloned directory.
+3. Type `git clone`, and then paste the URL you copied earlier. It should look something like this: `git clone https://github.com/Abdullah-Alesway/edge_speech`
+
+
+### Running the Script
+After cloning the repository, just you need to follow these steps:
+- Navigate to the directory where your script is located using the `cd` command.
+- Make your script executable by running `chmod +x edge-speech.sh`.
+4. Run your script by typing `./edge-speech.sh.` into the terminal.
+
+## Setting a Keyboard Shortcut in GNOME
+To set a keyboard shortcut in GNOME, follow these steps:
+
+1. Open the Settings app and click on Keyboard Shortcuts.
+2. Scroll down to the bottom and click the button to add a new custome shortcut.
+3. In the Name field, enter a name for the shortcut (e.g., "Run My Script").
+4. In the Command field, enter the full path to your script (e.g., `/home/username/Downloads/edge-speech.sh`).
+5. Click Set Shortcut... and press the key combination you want to use to run your script.
+
+## Setting a Keyboard Shortcut in KDE Plasma
+To set a keyboard shortcut in KDE Plasma, follow these steps:
+
+1. Open System Settings and go to Shortcuts.
+2. Select Custom Shortcuts and click the + button to add a new shortcut.
+3. Select the Command/URL option.
+4. In the Comment field, enter a name for the shortcut.
+5. In the Action field, enter the full path to your script.
+6. On the Trigger tab, click the + button and press the key combination you want to use to run your script.
+
+
