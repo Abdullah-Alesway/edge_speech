@@ -3,16 +3,16 @@ This is a Bash script that utilizes the `xclip` and `edge-playback` utilities to
 
 ## How to install the dependencies:
 
-## Installing xclip
+### Installing xclip
 `xclip` is a command-line utility that interacts with the X11 clipboard. Here's how you can install it on various Linux distributions:
 
-### Ubuntu, Debian, and Linux Mint
+#### Ubuntu, Debian, and Linux Mint
 ```bash
 sudo apt update
 sudo apt install xclip
 ```
 
-### Fedora, CentOS, AlmaLinux, and Red Hat
+#### Fedora, CentOS, AlmaLinux, and Red Hat
 ```bash
 sudo dnf install xclip
 ```
@@ -23,15 +23,15 @@ sudo pacman -S xclip
 ```
 
 
-## Installing edge-tts
+### Installing edge-tts
 `edge-tts` is a Python module that allows you to use Microsoft Edge's online text-to-speech service. You can install it using pip or pipx:
 
-### Using pip
+#### Using pip
 ```bash
 pip install edge-tts
 ```
 
-### Using pipx
+#### Using pipx
 ```bash
 pipx install edge-tts
 ```
